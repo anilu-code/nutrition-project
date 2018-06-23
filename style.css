@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+body{
+    text-align: center;
+}
+h1, h3, h5{
+    font-family: "Shrikhand";
+    text-align: center;
+}
+
+#template{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.card-container{
+    height: 30vh;
+    padding: 5px;
+}
+
+img{
+    height:inherit;
+}
+
+.selectable:hover{
+    cursor: pointer;
+}
+
+.forbbiden:hover{
+    cursor:not-allowed;
+}
